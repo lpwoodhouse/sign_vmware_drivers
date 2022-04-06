@@ -13,3 +13,9 @@ chmod +x sign_vm_modules.sh
 ```shell
 ./sign_vm_modules.sh
 ```
+### Step 4: Reboot
+```shell
+shutdown -r now
+```
+Upon Reboot the option to 'Enroll MOK' should appear. Follow the on-screen instructions. When finished and backup and running, virtual machines in VMware Workstation should be able to power on again.<br>
+Steps will have to be repeated every time the system kernel is updgraded.
