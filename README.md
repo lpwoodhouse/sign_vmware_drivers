@@ -4,7 +4,7 @@ Sign VMware drivers on Linux host with secure boot enabled, so that VMware Works
 ## Cause
 On Linux host with secure mode enabled, it is not allowed to load any unsigned drivers. Due to this, VMware drivers, such as vmmon and vmnet, are not able to be loaded which prevents virtual machine to power on.
 ## Resolution
-Ref Article: https://kb.vmware.com/s/article/2146460
+Ref Article: https://kb.vmware.com/s/article/2146460 \
 Alt Solution: https://askubuntu.com/questions/1096052/vmware-15-error-on-ubuntu-18-4-could-not-open-dev-vmmon-no-such-file-or-dire
 ### Step 1: Get the Script
 ```shell
