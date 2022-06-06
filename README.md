@@ -7,7 +7,7 @@ On Linux host with secure mode enabled, it is not allowed to load any unsigned d
 Ref Article: https://kb.vmware.com/s/article/2146460
 ### Step 1: Get the Script
 ```shell
-wget https://raw.githubusercontent.com/lpwoodhouse/ubuntu_vm_mod_sign/master/sign_vm_modules.sh
+wget https://raw.githubusercontent.com/lpwoodhouse/sign_vmware_drivers/master/sign_vm_modules.sh
 ```
 ### Step 2: Make the script executable
 ```shell
